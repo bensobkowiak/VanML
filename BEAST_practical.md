@@ -54,7 +54,7 @@ Other types of data can be included, such as binary character data, and multiple
 
 <br>
 
-### 6. Select 'read from file' and click the 'Browse' button to find the dates file in your data folder:
+### 6. Select 'read from file' and click the 'Browse' button to find the dates file in your data folder. You may have to select the 'show options' box and select '.txt. in the browse window:
 
 <img src="Pictures/BEAST6.jpeg" alt="Description1" width="70%"/>
 
