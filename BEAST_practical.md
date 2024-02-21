@@ -243,23 +243,27 @@ Here, we will run a phylodynamics analysis using the BEAST2 package 'BDSKY' to i
 <br>   
 
 
-### 5. Set the number of MCMC iteration to 10 million for this analysis and save the file, it should take around 5 minutes to run.
+### 5. Set the number of MCMC iteration to 10 million for this analysis and save the file as "TB_Cluster_skyline.xml".
 
 <img src="Pictures/Sky4.jpg" alt="Description1" width="70%"/>
 
 <br>   
 
-### 6. Run your new XML file in BEAST in the same way as before.
+### 6. Run your new XML file in BEAST in the same way as before, it should take around 5-10 minutes to run.
 
 <br>   
 
-### 7. Open Tracer and view your log file. It should hopefully have reached convergence or near convergence at all parameters. We can now view the results of Skyline analysis. Click 'Analysis -> Bayesian Skyline Reconstruction':
+### 7. Open Tracer and view your log file. 
+
+_Have all parameters reached convergence? How could we improve these if not?_
+
+We can now view the results of Skyline analysis. Click 'Analysis -> Bayesian Skyline Reconstruction':
 
 <img src="Pictures/Sky5.jpg" alt="Description1" width="70%"/>
 
 <br>  
 
-### 8. In the 'Trees Log File' option, load in the resulting .trees file from your BEAST run. We can also set the age of the youngest tip as 2014.6 as we know our most recent sample was collected in July 2014. Press okay to run the analysis:
+### 8. In the 'Trees Log File' option, load in the resulting .trees file from your BEAST run. We can also set the age of the youngest tip as 2014.9 as we know our most recent sample was collected in November 2014. Press okay to run the analysis:
 
 <img src="Pictures/Sky6.jpg" alt="Description1" width="70%"/>
 
