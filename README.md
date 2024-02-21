@@ -1,6 +1,6 @@
 # VanML - 2024 Biostatistics Workshop 
 
-## BEAST interactive session 
+## BEAST interactive session - [Activity](BEAST_practical.md)
 
 Instructors
 ---
@@ -8,7 +8,6 @@ Instructors
 Dr. Jessica Stockdale <br>
 Dr. Ben Sobkowiak <br>
 
-## Link to the [Activity](BEAST_practical.md)
 
 Objectives
 ---
@@ -28,6 +27,10 @@ FigTree <br>
 Required Data
 ---
 
+[Download](https://drive.google.com/uc?export=download&id=1auMJZxaUA816f3F0EexBe7P1LEJJO6Yd/view?usp=sharing)
+
+[TB_cluster.fasta](https://drive.google.com/file/d/1auMJZxaUA816f3F0EexBe7P1LEJJO6Yd/view?usp=sharing) <br>
+[TB_cluster.txt](https://drive.google.com/file/d/1kR8uE2pmGGBsH5UbxPdhvnkQJNPLe78I/view?usp=sharing) <br>
 
 <br>
 
