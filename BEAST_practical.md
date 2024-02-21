@@ -199,29 +199,13 @@ _Question: How far in the past is the TMRCA (time to most recent common ancestor
 <br>
 
 
-
-
-### Further resources: 
-
-#### BEAST is very well documented with numerous basic and advanced tutorials. The excellent ['Taming the BEAST'](https://taming-the-beast.org/tutorials/Introduction-to-BEAST2/) workshop has many different walkthoughs and tutorials to guide you through all aspects of runnnig BEAST.
-
-
-### This is the end of the activities in practical session 3. Navigate back to the homepage for other activities [here](../README.md).
-
-
 # Phylodynamics with BEAST2
 
 
 Along with inferring timed phylogenies, we can use BEAST (Bayesian Evolutionary Analysis Sampling Trees) to carry out a range of phylogenetic and phylodynamic analyses. BEAST2 is a newer and more advanced version of BEAST, developed by the same team but with a redesigned architecture to provide a modular and extensible framework. As such, there are a variety of packages available in BEAST2 that have been developed for a range of different analyses, such as jointly reconstructing transmission networks with a phylogeny and inferring recombination. Furthermore, BEAST2 allows users to write their own packages to use their underlying Bayesian architecture, as well as providing [tutorials](https://www.beast2.org/package-development-guide/writing-a-beast-2_7-package.html) to write these packages.
 
 Here, we will run a phylodynamics analysis using the BEAST2 package 'BDSKY' to infer past population dynamics of our TB cluster.
-
-The data we will be using in this exercise are:
-
-- **TB_Cluster.fasta** – A FASTA alignment file of concatenated SNPs from 38 _M. tuberculosis_ samples collected between 2005 - 2014 in British Columbia. These isolates all share a MIRU-VNTR type, suggesting they may be linked by transmission.
-
-- **TB_Cluster.txt** – A text file with two columns, the name of the 38 _M. tuberculosis_ samples and their collection dates.
-
+<br>
 
 ### Open BEAUti:
 
@@ -240,7 +224,7 @@ The data we will be using in this exercise are:
 
 ### This will download the package. You should get a prompt stating it has been successfully installed but that it will need to be restarted for any changes to take effect. Please restart BEAUti.
 
-### 3. Now load in the data, set the tip dates and set up the site model and clock model as in the [previous exercise](Beast.md).
+### 3. Now load in the data, set the tip dates and set up the site model and clock model as before.
 
 <br>   
 
@@ -257,7 +241,7 @@ The data we will be using in this exercise are:
 
 <br>   
 
-### 6. Run your new XML file in BEAST in the same way as the [previous exercise](Beast.md).
+### 6. Run your new XML file in BEAST in the same way as before.
 
 <br>   
 
@@ -286,5 +270,9 @@ The data we will be using in this exercise are:
 
 <br>
 
-BEAST2 contains many other packages and analysis types that you can explore. Again the Taming the BEAST workshop is a great resource to learn more, including this [tutorial on skyline plots.](https://taming-the-beast.org/tutorials/Skyline-plots/)
+### Further resources: 
+
+BEAST is very well documented with numerous basic and advanced tutorials. The excellent ['Taming the BEAST'](https://taming-the-beast.org/tutorials/Introduction-to-BEAST2/) workshop has many different walkthoughs and tutorials to guide you through all aspects of runnnig BEAST.
+
+In addition, BEAST2 contains many other packages and analysis types that you can explore. Again the Taming the BEAST workshop is a great resource to learn more, including this [tutorial on skyline plots.](https://taming-the-beast.org/tutorials/Skyline-plots/)
 
