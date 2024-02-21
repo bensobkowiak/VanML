@@ -8,6 +8,8 @@ Instructors
 Dr. Jessica Stockdale <br>
 Dr. Ben Sobkowiak <br>
 
+## Link to the [Activity](BEAST_practical.md)
+
 Objectives
 ---
 
@@ -26,10 +28,6 @@ FigTree <br>
 Required Data
 ---
 
-
-
-
-## Link to [Activity](BEAST_practical.md)
 
 <br>
 
