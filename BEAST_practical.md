@@ -173,7 +173,7 @@ _Discussion: What parameters do you think have not converged. What may be the re
 
 ### 1. Here will first select the percentage burn-in. This is initial portion of the MCMC chain where samples are discarded, removing any influence of the starting values on the estimation of posterior distributions. We will also open the TB_Cluster.trees file in the 'Input tree file' box, and name our single output tree in the 'Output file' box. We can name this "TB_Cluster.tree":
 
-<img src="Pictures/BEAST_25.jpg" alt="Description1" width="70%"/>
+<img src="Pictures/BEAST18.jpg" alt="Description1" width="70%"/>
 
 <br>
 
