@@ -7,9 +7,9 @@ One of the key features that makes BEAST an important tool for timed phylogeny b
 
 The data we will be using in this exercise are:
 
-- **TB_Cluster.fasta** – A FASTA alignment file of concatenated SNPs from 38 _M. tuberculosis_ samples collected between 2005 - 2014 in British Columbia. These isolates all share a MIRU-VNTR type, suggesting they may be linked by transmission.
+- **TB_Cluster.fasta** – A FASTA alignment file of concatenated SNPs from 37 _M. tuberculosis_ samples collected between 2005 - 2014 in British Columbia. These isolates all share a MIRU-VNTR type, suggesting they may be linked by transmission.
 
-- **TB_Cluster.txt** – A text file with two columns, the name of the 38 _M. tuberculosis_ samples and their collection dates.
+- **TB_Cluster.txt** – A text file with two columns, the name of the 37 _M. tuberculosis_ samples and their collection dates.
 
 <br>
 
@@ -54,7 +54,7 @@ Other types of data can be included, such as binary character data, and multiple
 
 <br>
 
-### 6. Select 'read from file' and click the 'Browse' button to find the dates file in your data folder. You may have to select the 'show options' box and select '.txt. in the browse window:
+### 6. Select 'read from file' and click the 'Browse' button to find the dates file in your data folder. You may have to select the 'show options' box and select '.txt' in the browse window:
 
 <img src="Pictures/BEAST6.jpeg" alt="Description1" width="70%"/>
 
@@ -90,7 +90,7 @@ Here we will set the population model as 'Coalescent Constant Model'. Please rea
 
 <br>
 
-### 11. The last parameter to set is in "MCMC" tab. Here we can set the number of chains to run, which is the number of MCMC iterations to run the model for. Here we can set the number of MCMC chains to 1 million, this should take a few minutes to run. 
+### 11. The last parameter to set is in "MCMC" tab. Here we can set the number of chains to run, which is the number of MCMC iterations to run the model for. Here we can set the number of MCMC chains to 10 million, this should take around 5-10 minutes to run. 
 
 The number of chains to run the model for is dependent on the complexity of the data and the underlying models; longer runs with more likely lead to the MCMC chains to converge (reach an equilibrium):
 
@@ -129,6 +129,12 @@ The number of chains to run the model for is dependent on the complexity of the 
 
 <br>
 
+### 4. The BEAST run is complete when you see a screen like this:
+
+<img src="Pictures/BEAST16.jpeg" alt="Description1" width="70%"/>
+
+<br>
+
 ### You should find that 3 files are created: TB_Cluster.log, TB_cluster.trees, and TB_Cluster.xml.state. We want to inspect how well our run has converged using the .log file. We can use 'Tracer' to analyze the output from BEAST.
 
 ### Open Tracer:
@@ -144,9 +150,11 @@ The number of chains to run the model for is dependent on the complexity of the 
 
 <br>
 
-### 2. This will bring up all of the posterior estimates of different parameters. Your results will look slightly different to these, and to each other, as BEAST is a stochastic program:
+### 2. This will bring up all of the posterior estimates of different parameters. 
 
-<img src="Pictures/BEAST16.jpeg" alt="Description1" width="70%"/>
+This includes an Effective Sample Size (ESS) of each parameter. Your results will look slightly different to these, and to each other, as BEAST is a stochastic program. A small ESS (< 100) shows that then the estimate of the posterior distribution of that parameter is likely poor, whereas a larger ESS (> 200) is accepted as good. More information on ESS and how to improve scores can be found [here](https://beast.community/ess_tutorial).
+
+<img src="Pictures/BEAST17.jpeg" alt="Description1" width="70%"/>
 
 <br>
 
@@ -154,11 +162,11 @@ The number of chains to run the model for is dependent on the complexity of the 
 
 Convergence refers to the property of an MCMC algorithm whereby it reaches a stationary distribution that accurately represents the posterior distribution of the model parameters. In simpler terms, it indicates that the chain has explored the parameter space sufficiently and is sampling from the true underlying distribution.
 
-<img src="Pictures/BEAST17.jpeg" alt="Description1" width="70%"/>
+<img src="Pictures/BEAST18.jpeg" alt="Description1" width="70%"/>
 
 <br>
 
-_Discussion: What parameters do you think have not converged. What may be the reason? View the log file provided in the Data folder "TB_Cluster_longer.log. How do these traces compare to your runs?_
+_Discussion: Explore the different posterior parameters in Tracer. How long ago was the last common ancestor of all sequences in the tree inferred to have been present? What is the confidence around this value?_
 
 <br>
 
@@ -173,28 +181,28 @@ _Discussion: What parameters do you think have not converged. What may be the re
 
 ### 1. Here will first select the percentage burn-in. This is initial portion of the MCMC chain where samples are discarded, removing any influence of the starting values on the estimation of posterior distributions. We will also open the TB_Cluster.trees file in the 'Input tree file' box, and name our single output tree in the 'Output file' box. We can name this "TB_Cluster.tree":
 
-<img src="Pictures/BEAST18.jpg" alt="Description1" width="70%"/>
+<img src="Pictures/BEAST19.jpeg" alt="Description1" width="70%"/>
 
 <br>
 
 ### 2. Then click 'Run' to estimate a single consensus tree from the posterior output from BEAST. This will be saved in the "TB_Cluster.tree" file:
 
-<img src="Pictures/BEAST19.jpg" alt="Description1" width="70%"/>
+<img src="Pictures/BEAST20.jpeg" alt="Description1" width="70%"/>
 
 <br>
 
 
 ### 3. Open the "TB_Cluster.tree" file in FigTree:
 
-<img src="Pictures/BEAST20.jpg" alt="Description1" width="70%"/>
+<img src="Pictures/BEAST21.jpeg" alt="Description1" width="70%"/>
 
 <br>
 
 ### 4. Explore the options on the bottom left to look at the estimated times of the nodes:
 
-<img src="Pictures/BEAST21.jpg" alt="Description1" width="70%"/>
+<img src="Pictures/BEAST22.jpeg" alt="Description1" width="70%"/>
 
-_Question: How far in the past is the TMRCA (time to most recent common ancestor) of all the samples in our cluster?_
+_Question: What is the posterior support for the node representing the most recent common ancestor?_
 
 <br>
 
