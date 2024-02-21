@@ -7,9 +7,9 @@ One of the key features that makes BEAST an important tool for timed phylogeny b
 
 The data we will be using in this exercise are:
 
-- **TB_Cluster.fasta** – A FASTA alignment file of concatenated SNPs from 37 _M. tuberculosis_ samples collected between 2005 - 2014 in British Columbia. These isolates all share a MIRU-VNTR type, suggesting they may be linked by transmission.
+- **TB_cluster.fasta** – A FASTA alignment file of concatenated SNPs from 37 _M. tuberculosis_ samples collected between 2005 - 2014 in British Columbia. These isolates all share a MIRU-VNTR type, suggesting they may be linked by transmission.
 
-- **TB_Cluster.txt** – A text file with two columns, the name of the 37 _M. tuberculosis_ samples and their collection dates.
+- **TB_cluster.txt** – A text file with two columns, the name of the 37 _M. tuberculosis_ samples and their collection dates.
 
 <br>
 
