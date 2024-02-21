@@ -259,19 +259,19 @@ _Have all parameters reached convergence? How could we improve these if not?_
 
 We can now view the results of Skyline analysis. Click 'Analysis -> Bayesian Skyline Reconstruction':
 
-<img src="Pictures/Sky5.jpg" alt="Description1" width="70%"/>
+<img src="Pictures/SKY5.jpg" alt="Description1" width="70%"/>
 
 <br>  
 
 ### 8. In the 'Trees Log File' option, load in the resulting .trees file from your BEAST run. We can also set the age of the youngest tip as 2014.9 as we know our most recent sample was collected in November 2014. Press okay to run the analysis:
 
-<img src="Pictures/Sky6.jpg" alt="Description1" width="70%"/>
+<img src="Pictures/SKY6.jpg" alt="Description1" width="70%"/>
 
 <br>  
 
 ### 9. We now have our skyline plot showing an estimate of the past population demography:
 
-<img src="Pictures/Sky7.jpg" alt="Description1" width="70%"/>
+<img src="Pictures/SKY7.jpg" alt="Description1" width="70%"/>
 
 <br>  
 
