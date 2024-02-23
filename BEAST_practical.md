@@ -170,7 +170,7 @@ Convergence refers to the property of an MCMC algorithm whereby it reaches a sta
 
 _Discussion: Explore the different posterior parameters in Tracer. How long ago was the last common ancestor of all sequences in the tree inferred to have been present? What is the confidence around this value?_
 
-_Extra exercise: Re-run the BEAST analysis changing the 'clock model' parameter in BEAUti to "Optimised relaxed clock" and examine the log file in Tracer. Which run appears optimal?_
+_Extra exercises: Re-run the BEAST analysis changing the 'clock model' parameter in BEAUti to "Optimised relaxed clock" and examine the log file in Tracer. Which run appears optimal? You can also change the nucleotide substitution model - try changing it to HKY and examine the log files in Tracer, does this improve the posterior ESS scores?_
 
 <br>
 
