@@ -11,8 +11,10 @@ The data we will be using in this exercise are:
 
 - **TB_cluster.txt** – A text file with two columns, the name of the 37 _M. tuberculosis_ samples and their collection dates.
 
-<br>
 
+### Extra exercise: [Estimating temporality in your data using TempEst](TempEst.md)
+
+<br>
 
 To run BEAST2, we first need to create XML file in BEAUti that can be read by the main tool - BEAST. BEAUti is included in the BEAST2 suite of software. BEAUti can also be run using the command line but here we will take you through the user interface. <br>
 
@@ -167,6 +169,8 @@ Convergence refers to the property of an MCMC algorithm whereby it reaches a sta
 <br>
 
 _Discussion: Explore the different posterior parameters in Tracer. How long ago was the last common ancestor of all sequences in the tree inferred to have been present? What is the confidence around this value?_
+
+_Extra exercise: Re-run the BEAST analysis changing the 'clock model' parameter in BEAUti to "Optimised relaxed clock" and examine the log file in Tracer. Which run appears optimal?_
 
 <br>
 
