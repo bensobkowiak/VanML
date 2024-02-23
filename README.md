@@ -3,7 +3,7 @@
 ## Lecture - [Phylogenetic applications to real-world data](Lecture_phylogenetics_phylodynamics.pdf)
 
 
-## BEAST interactive session - [Activity](BEAST_practical.md)
+## Activity - [BEAST interactive session](BEAST_practical.md)
 
 Instructors
 ---
