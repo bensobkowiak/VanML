@@ -13,7 +13,7 @@ The data we will be using in this exercise are:
 
 ### Open TempEst:
 
-<img src="Pictures/TempEst.jpeg" alt="Description1" width="10%"/>
+<img src="Pictures/TempEst6.jpeg" alt="Description1" width="10%"/>
 
 <br>
 
