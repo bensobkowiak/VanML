@@ -6,26 +6,24 @@ Tools like TempEst can be used to plot the root-to-tip distances for each sequen
 
 The data we will be using in this exercise are:
 
-- [**TB_cluster_ML.tree**](https://drive.google.com/uc?export=download&id=1FRyfCeEqqIPoRLB81JJYyBomqORJG7fS) – A Maximum Likelihood phylogeny from 37 _M. tuberculosis_ samples collected between 2005 - 2014 in British Columbia. This is an untimed phylogeny so the branches will be in units of substitutions/site.
+- [**TB_cluster_ML.tree**](https://drive.google.com/uc?export=download&id=1FRyfCeEqqIPoRLB81JJYyBomqORJG7fS) – A Maximum Likelihood phylogeny from 37 _M. tuberculosis_ samples collected between 2005 - 2014 in British Columbia. This is an untimed phylogeny so the branches will be in units of substitutions/site. This tree has been rooted by an outgroup sequence that has been removed.
 
 - [**TB_cluster.txt**](https://drive.google.com/uc?export=download&id=1kR8uE2pmGGBsH5UbxPdhvnkQJNPLe78I) – A text file with two columns, the name of the 37 _M. tuberculosis_ samples and their collection dates.
 
 
 ### Open TempEst:
 
-<img src="Pictures/TempEst6.jpeg" alt="Description1" width="10%"/>
+<img src="Pictures/TempEst6.jpeg" alt="Description1" width="20%"/>
 
 <br>
 
-### 1. You will open the following screen. Click the + sign illustrated by the red box:
+### 1. You will be prompted to open a file, select the TB_cluster_ML.tree file. This will open the following screen:
 
 <img src="Pictures/TempEst1.jpeg" alt="Description1" width="70%"/>
 
 <br>   
 
-### 2. Navigate to the "TB_Cluster.fasta" file in your data folder and click open. You will then be prompted to choose the datatype, we will select "all are nucleotide":
-
-Other types of data can be included, such as binary character data, and multiple data sources for the same samples can be used together with different models applied. For example, you could use SNPs in the form of nucleotides and the presence/absence of indels as binary data to estimate the phylogeny, with different evolutionary models applied to each type of data.
+### 2. Select Import Dates and open the "TB_cluster.txt" file to import the dates. This will prompt the following screen to parse the dates in the correct format. The dates are in the "yyyy-MM-dd" format so we can select that:
 
 <img src="Pictures/TempEst2.jpeg" alt="Description1" width="70%"/>
 
