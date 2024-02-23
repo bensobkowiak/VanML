@@ -1,5 +1,8 @@
 # VanML - 2024 Biostatistics Workshop 
 
+## Lecture - [Phylogenetic applications to real-world data](Lecture_phylogenetics_phylodynamics.pdf)
+
+
 ## BEAST interactive session - [Activity](BEAST_practical.md)
 
 Instructors
