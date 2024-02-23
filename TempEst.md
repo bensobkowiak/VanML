@@ -2,7 +2,7 @@
 
 Before building a timed phylogeny, it can be important to test for temporality in your data. Temporality in this context refers to the presence of a molecular clock signal, meaning that genetic changes accumulate at a roughly consistent rate over time. This is essential for reliably estimating divergence times in a phylogenetic tree. This analysis can inform the clock model to select when building a timed phylogeny or identify sequences that may be problematic, such as those with incorrect dates or significant rate variation.
 
-Tools like TempEst can be used to plot the root-to-tip distances for each sequence from an un-timed phylogeny against sequence dates. In a dataset where a molecular clock holds, you would expect a positive correlation between these distances and time.
+Tools like [TempEst](http://tree.bio.ed.ac.uk/software/tempest/) can be used to plot the root-to-tip distances for each sequence from an un-timed phylogeny against sequence dates. In a dataset where a molecular clock holds, you would expect a positive correlation between these distances and time.
 
 The data we will be using in this exercise are:
 
